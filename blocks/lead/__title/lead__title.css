@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 768px) {
     .lead__title {
-        font-size: calc(40px + 56 * (100vw - 320px) / 448);
+        font-size: calc(40px + 56 * (100vw - 320px) / 448);  /* размер текста будет уменьшаться пропорционально размеру окна */
         line-height: 1.04;
     }
 }

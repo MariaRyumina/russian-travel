@@ -15,8 +15,8 @@
 
 @media screen and (max-width: 768px) {
     .lead__subtitle {
-        max-width: calc(288px + 352 * (100vw - 320px) / 448);
-        font-size: calc(16px + 14 * (100vw - 320px) / 448);
+        max-width: calc(288px + 352 * (100vw - 320px) / 448);  /* макс. ширина будет уменьшаться пропорционально размеру окна */
+        font-size: calc(16px + 14 * (100vw - 320px) / 448);  /* размер текста будет уменьшаться пропорционально размеру окна */
         line-height: 1.2;
     }
 }

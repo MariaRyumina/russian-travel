@@ -1,0 +1,32 @@
+.places {
+    max-width: 984px;
+    margin: 92px auto 0;
+    padding: 0 48px;
+}
+
+/* до макс. ширины 1024px, НЕ включая ее (так как свойство ниже перекрывает это) будет отступ в 48px */
+@media screen and (max-width: 1024px) {
+    .places {
+        padding: 0 24px;
+    }
+}
+
+/* до мин. ширины 1024px, включая ее, будет отступ в 48px */
+@media screen and (min-width: 1024px) {
+    .places {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        margin-top: 64px;
+        padding: 0 16px;
+    }
+}

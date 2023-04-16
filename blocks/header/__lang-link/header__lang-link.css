@@ -4,7 +4,7 @@
     line-height: 28px;
     text-decoration: none;
     color: #fff;
-    margin-right: 13.5px;
+    margin: 0 18px 0 0;
 }
 
 .header__lang-link:last-of-type {
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 768px) {
     .header__lang-link {
-        font-size: calc(18px + 6 * (100vw - 320px) / 448);
+        font-size: calc(18px + 6 * (100vw - 320px) / 448);  /* размер текста будет уменьшаться пропорционально размеру окна */
     }
 }
 

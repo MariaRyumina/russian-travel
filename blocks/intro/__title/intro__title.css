@@ -9,13 +9,7 @@
 @media screen and (max-width: 768px) {
     .intro__title {
         max-width: 720px;
-        font-size: calc(32px + 22 * (100vw - 320px) / 448);
-        line-height: calc(35px + 23 * (100vw - 320px) / 448);
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro__title {
-
+        font-size: calc(32px + 22 * (100vw - 320px) / 448);  /* размер текста будет уменьшаться пропорционально размеру окна */
+        line-height: calc(35px + 23 * (100vw - 320px) / 448);  /* размер высоты строки будет уменьшаться пропорционально размеру окна */
     }
 }

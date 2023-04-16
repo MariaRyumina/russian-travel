@@ -7,6 +7,7 @@
     text-transform: uppercase;
 }
 
+/* до мин. ширины 1024px, включая ее, левый отступ будет равен 0 */
 @media screen and (min-width: 1024px) {
     .lead__caption {
         margin-left: 0;
