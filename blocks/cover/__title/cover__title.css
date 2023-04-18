@@ -1,0 +1,22 @@
+.cover__title {
+    margin: 0;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    max-width: 560px;
+    z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        font-size: calc(32px + 40 * (100vw - 320px) / 448); /* размер текста будет уменьшаться пропорционально размеру окна до ширины окна в 320рх и высоты текста 32рх */
+        line-height: calc(35px + 41 * (100vw - 320px) / 448);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 288px;
+    }
+}

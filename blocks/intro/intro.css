@@ -5,12 +5,14 @@
     flex-direction: column;
 }
 
+/* до макс. ширины окна 1024рх, НЕ включая ее, боковые отступы будут 24рх */
 @media screen and (max-width: 1024px) {
     .intro {
         padding: 0 24px;
     }
 }
 
+/* до мин. ширины окна 1024рх, включая ее, боковые отступы будут 48рх */
 @media screen and (min-width: 1024px) {
     .intro {
         padding: 0 48px;

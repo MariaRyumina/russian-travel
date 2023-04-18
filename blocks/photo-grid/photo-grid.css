@@ -8,7 +8,7 @@
     grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
 }
 
-/* до макс. ширины 1024px, НЕ включая ее (так как свойство ниже перекрывает это) будет отступ в 48px */
+/* до макс. ширины 1024px, НЕ включая ее (так как свойство ниже приоритетнее) будет отступ в 24px */
 @media screen and (max-width: 1024px) {
     .photo-grid {
         padding: 0 24px;
@@ -35,5 +35,6 @@
         margin-top: 64px;
         padding: 0 16px;
         gap: 12px;
+
     }
 }

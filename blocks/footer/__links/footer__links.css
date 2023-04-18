@@ -1,24 +1,18 @@
-.place__website {
-    align-self: end;
+.footer__links {
+    display: flex;
 }
 
 /* свойства для макс. высоты 768рх, НЕ включая ее */
 @media screen and (max-width: 768px) {
-    .place__website {
-        padding: 0 24px;
+    .footer__links {
+        flex-direction: column;
     }
 }
 
 /* свойства для мин. высоты 768рх, включая ее */
 @media screen and (min-width: 768px) {
-    .place__website {
-        padding: 0;
+    .footer__links {
+        flex-direction: row;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .place__website {
-        align-self: flex-start;
-        padding: 0 16px;
-    }
-}
