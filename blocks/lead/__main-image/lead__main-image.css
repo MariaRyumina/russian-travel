@@ -1,6 +1,8 @@
 .lead__main-image {
     display: flex;
     flex-direction: column;
+    row-gap: 8px;
+    margin: 0;
 }
 
 /* до мин. ширины 1024px, включая ее, боковые отступы будут равны 48px,

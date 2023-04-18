@@ -5,7 +5,6 @@
     justify-content: center;
     gap: 16px;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
 }
 
 /* до макс. ширины 1024px, НЕ включая ее (так как свойство ниже приоритетнее) будет отступ в 24px */
