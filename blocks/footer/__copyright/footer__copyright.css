@@ -4,17 +4,3 @@
     font-size: 14px;
     line-height: 16px;
 }
-
-/* до макс. высоты, НЕ включая ее, отступ сверху будет равен 48рх */
-@media screen and (max-width: 768px) {
-    .footer__copyright {
-        margin-top: 48px;
-    }
-}
-
-/* до мин. высоты 768рх, включая ее, отступ сверху будет равен нулю */
-@media screen and (min-width: 768px) {
-    .footer__copyright {
-        margin-top: 0;
-    }
-}
