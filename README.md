@@ -18,9 +18,8 @@ ___
 * использование media queries для задания специфических правил для разных размеров экранов (основные брейкпоинты: 320, 768, 1024 и 1280 пикселей).
 * элементы не «ломаются» между брейкпоинтами;
 * где необходимо, использовалась flexbox-вёрстка;
-* файловая структура CSS по методолгии БЭМ;
+* файловая структура CSS по методологии БЭМ;
 
 
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Иконка CSS3">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Иконка HTML5">
-
